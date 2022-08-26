@@ -121,8 +121,15 @@ button{
 }
 
 .four{
-    
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.inside{
+    border-radius: 12px;
+    background-color: #3882F6;
+    padding: 50px 100px 50px 100px;
 }
 .footer{
     padding-top: 50px;
@@ -142,4 +149,13 @@ a{
     text-decoration: none;
     padding: 0px 15px;
 
+}
+.left-end{
+    color: white;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.left-small{
+    color: white;
+    font-size: 16px;
 }
